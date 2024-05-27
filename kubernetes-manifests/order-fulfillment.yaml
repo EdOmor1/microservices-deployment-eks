@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: order-fulfillment-pod
+spec:
+  containers:
+  - name: order-fulfillment-container
+    image: your-docker-username/order-fulfillment:latest
+    ports:
+    - containerPort: 5000

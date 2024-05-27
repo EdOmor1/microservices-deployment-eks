@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: user-management-pod
+spec:
+  containers:
+  - name: user-management-container
+    image: your-docker-username/user-management:latest
+    ports:
+    - containerPort: 5000

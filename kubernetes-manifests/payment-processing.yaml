@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: payment-processing-pod
+spec:
+  containers:
+  - name: payment-processing-container
+    image: your-docker-username/payment-processing:latest
+    ports:
+    - containerPort: 5000

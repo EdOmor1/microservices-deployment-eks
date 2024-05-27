@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: product-catalog-pod
+spec:
+  containers:
+  - name: product-catalog-container
+    image: your-docker-username/product-catalog:latest
+    ports:
+    - containerPort: 5000
