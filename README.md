@@ -1,10 +1,14 @@
 # microservices-deployment-eks
 
-## Use Case:
+## Use Case: Scalable E-Commerce Platform for Water Sales
 
-A scalable and resilient e-commerce platform which utilises microservices to breakdown each service into the following: user management, product catalog, payment processing, and order fulfillment. 
+In the context of an e-commerce platform specializing in selling water products, the goal is to build a scalable and resilient infrastructure using microservices architecture. By breaking down the platform into smaller, independent services, such as user management, product catalog, payment processing, and order fulfillment, the platform aims to enhance agility, scalability, and fault tolerance.
 
 Each microservice will be deployed as a Docker container on Amazon EKS, allowing for independent scaling, updates, and fault isolation. This architecture enables the e-commerce platform to handle varying loads and ensure high availability during peak times.
+
+Note: dockerfiles are sample for this basic project, register for docker (if haven't already) and get the necessary details and input appropriately.
+
+This project has room for growth even further, and will update in due course.
 
 ## Repository Structure
 
